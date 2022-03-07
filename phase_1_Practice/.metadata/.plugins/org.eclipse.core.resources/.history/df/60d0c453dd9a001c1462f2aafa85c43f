@@ -1,0 +1,11 @@
+package Com;
+
+class ProtectedClass extends AccessModifiers 
+{
+	protected void protectedmessage() 
+	{
+		System.out.println("This is a protected class");
+	}
+
+
+}

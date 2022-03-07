@@ -1,0 +1,10 @@
+package Com;
+
+public class ProtectedClass 
+{
+	protected void protectedmessage() 
+	{
+		System.out.println("This is a protected class");
+	}
+
+}

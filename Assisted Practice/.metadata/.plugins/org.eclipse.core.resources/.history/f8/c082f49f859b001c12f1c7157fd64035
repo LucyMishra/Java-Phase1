@@ -1,0 +1,14 @@
+package Test;
+
+ class GFG extends Thread {
+	    public void run()
+	    {
+	        System.out.print("Welcome to Simpli Learn.");
+	    }
+	    public static void main(String[] args)
+	    {
+	        GFG g = new GFG(); 
+	        g.start(); 
+	    }
+
+}
